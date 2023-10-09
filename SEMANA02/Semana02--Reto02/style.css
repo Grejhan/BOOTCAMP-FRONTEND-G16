@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+body{
+    background-color:  hsl(234, 29%, 20%);
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 1000px;
+    min-height: 600px;
+    order: 2;
+    display: flex;
+    border-radius: 30px 30px 30px 30px;
+}
+.photo {
+    background-color: blue;
+    width: 500px;
+    height: 650px;
+    order: 2;
+    display: flex;
+    background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 25px 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+    margin-right: 25px;
+    
+
+}
+.content {
+    background-color:hsl(0, 0%, 100%);
+    width: 500px;
+    height: 650px;
+    order: 1;
+    margin-top: 10px;
+    margin-left:20px ;
+   
+
+}
+.content h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-weight: 700px;
+    margin-left: 50px;
+    margin-top: 100px;
+    color: hsl(235, 18%, 26%);
+}
+.content h3{
+    margin-top: -17px;
+    font-size: 16px;
+    display: flex;
+    margin-left: 70px;
+    font-weight: 400;
+}
+.content p {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 60px;
+    margin-top: 10px;
+    color:hsl(235, 18%, 26%) ;
+    font-size: 16px;
+    margin-top: 10px;
+    gap: 7px;
+       
+}
+.content div {
+    font-family:'Roboto', sans-serif ;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-left: 50px;
+    display: flex;
+    
+    
+    
+}
+.content input{
+    
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 70%;
+    margin-left: 50px;
+    font-weight: 400;
+    border-radius: 7px;
+    padding: 17px;
+    align-items: center;
+    gap: 7px;
+  
+}
+.content button{
+    font-family: 'Roboto', sans-serif;
+    padding: 17px;
+    border-radius: 7px;
+    width: 87%;
+    margin-top: -35px;
+    display: flex;
+    justify-content: center;
+    background-color:hsl(235, 18%, 26%) ;
+    color: hsl(0, 0%, 100%);
+    margin-left: 0px;
+    align-items: center;
+    gap: 7px;
+}
+
+
+
+    
