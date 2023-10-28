@@ -1,0 +1,22 @@
+//css --primary-color//
+$primary-color:#ffa559;
+$card-bg: #fff;
+$card-border-color: #454545;
+$card-border-radius: 6px;
+
+
+body {
+    background-color: $primary-color;
+    //color: white;
+    text-align: center;
+}
+
+.card {
+    background-color: $card-bg;
+    border:1px solid $card-border-color;
+    border-radius: $card-border-radius;
+    margin-top: 1rem;
+    text-align: left;
+
+}
+

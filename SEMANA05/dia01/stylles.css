@@ -1,0 +1,72 @@
+.hero {
+    padding: 10rem;
+}
+
+.hero-slide {
+    background-image: url(https://codescandy.com/coach/bootstrap-5/assets/images/hero-slide.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 700px;
+}
+
+.master { 
+    height: 1000px;
+    margin-top: rem;
+    background-color: white;
+    
+}
+
+.Master_life { 
+    margin: 5rem;
+    font-size: 50px;
+    width: 500px;
+    text-align: center
+    
+}
+
+.Master__text { 
+    font-size: 25px;
+    width: 800px;
+    text-align: center;
+}
+
+.Life__one{
+    
+    position: relative;
+    background-color: white;
+    height: 200px;
+    width: 320px;
+    margin-top: -7rem;
+}
+
+.life_tow {
+    
+    position: relative;
+    background-color: white;
+    height: 200px;
+    width: 320px;
+    margin-top: -7rem;
+}
+
+.life_three {
+    
+    position: relative;
+    background-color: white;
+    height: 200px;
+    width: 320px;
+    margin-top: -7rem;
+}
+
+.title {
+    padding-top: 3rem;
+    
+}
+.title_text { 
+    margin-top: 2rem;
+}
+.read{
+    color: orangered;
+    text-decoration: underline;
+    
+}

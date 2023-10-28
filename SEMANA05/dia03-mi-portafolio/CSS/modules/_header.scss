@@ -1,0 +1,44 @@
+.header{
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+
+        color:$primary-color-gold;
+        font-size: 2rem;
+        font-weight: $font-weight-bold;
+    }
+
+    &__menu {
+        display:flex;
+        gap:1.5rem;
+
+        text-transform: capitalize;
+
+        padding: 10px;
+        margin: 2rem;
+    }
+    &__manu a {
+        color: $primary-color-white;
+    
+    }
+    .header__menu--active,
+    .header__menu a:hover {
+        color: $primary-color-gold;
+        border-bottom: 2px solid $primary-color-gold;
+    }
+    .header__links {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+
+    .header__links--active {
+        border-radius: 100%;
+        background-color: $primary-color-blue1;
+        padding: .3rem;
+    }
+}

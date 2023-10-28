@@ -1,0 +1,66 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem; //40 px
+    padding: 4rem; //64px
+
+    &--bg{
+        background-image: url(../images/bg.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+    }
+
+    &__gretting {
+        color: $primary-color-white;
+        font-size: 2rem;
+        font-weight: $font-weight-bold;
+        text-transform: capitalize;
+    }
+
+        & span {
+        color: $primary-color-gold;
+        text-decoration: underline;
+    }
+    &__title {
+    color: $primary-color-white;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: $font-weight-bold;
+    text-transform: capitalize;
+    }
+    &__description {
+        color: $primary-color-white;
+        font-size: 1.5rem;
+        font-weight: $font-weight-bold;
+        
+    }
+    &__photo { 
+        border-radius: 100%;
+    }
+}
+
+.stack {
+    display: flex;
+    gap: 1.5rem;
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 6rem;
+        height: 6rem;
+
+        background-color: $primary-color-blue2;
+        border-radius: 0.5rem;
+    }
+}
+
