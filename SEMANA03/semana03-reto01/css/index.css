@@ -327,6 +327,15 @@ p{
     margin-right: 2rem;
 }
 
+.logos { 
+    
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 5rem;
+}
 
 
 
