@@ -1,0 +1,24 @@
+.Frame__portafolio {
+    border: 1px solid red;
+    width: 1400px;
+    margin: 0 auto;
+    
+    padding: 3rem;
+}
+
+.Frame__title {
+    display: flex;
+    justify-content: center;
+}
+
+.list__descrip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 3rem;
+    list-style: none;
+    text-decoration: underline;
+    
+
+}

@@ -118,4 +118,93 @@ a {
   height: 6rem;
   background-color: #4F4557;
   border-radius: 0.5rem;
+}
+
+.info__victor {
+  display: flex;
+  margin: 0 auto;
+  width: 1400px;
+  justify-content: center;
+  margin-top: 4rem;
+  height: 500px;
+}
+
+.info__title {
+  color: #FFB742;
+  background-color: #6D5D6E;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: flex;
+  width: 180px;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.info__habilidades {
+  width: 500px;
+  height: 470px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.descrip__info {
+  padding: 2rem;
+}
+
+.p__texto {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.p__texto-info {
+  margin-top: 2rem;
+  font-size: 13px;
+  margin-left: 2rem;
+}
+
+span {
+  color: #FFB742;
+}
+
+.skill-tree {
+  width: 700px;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.level {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  margin-top: 0.3rem;
+}
+
+.Frame__portafolio {
+  border: 1px solid red;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.Frame__title {
+  display: flex;
+  justify-content: center;
+}
+
+.list__descrip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 3rem;
+  list-style: none;
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */
